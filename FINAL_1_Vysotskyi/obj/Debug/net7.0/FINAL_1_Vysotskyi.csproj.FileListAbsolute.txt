@@ -1,0 +1,17 @@
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\bin\Debug\net7.0\FINAL_1_Vysotskyi.exe
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\bin\Debug\net7.0\FINAL_1_Vysotskyi.deps.json
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\bin\Debug\net7.0\FINAL_1_Vysotskyi.runtimeconfig.json
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\bin\Debug\net7.0\FINAL_1_Vysotskyi.dll
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\bin\Debug\net7.0\FINAL_1_Vysotskyi.pdb
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\obj\Debug\net7.0\FINAL_1_Vysotskyi.csproj.AssemblyReference.cache
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\obj\Debug\net7.0\FINAL_1_Vysotskyi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\obj\Debug\net7.0\FINAL_1_Vysotskyi.AssemblyInfoInputs.cache
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\obj\Debug\net7.0\FINAL_1_Vysotskyi.AssemblyInfo.cs
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\obj\Debug\net7.0\FINAL_1_Vysotskyi.csproj.CoreCompileInputs.cache
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\obj\Debug\net7.0\FINAL_1_Vysotskyi.dll
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\obj\Debug\net7.0\refint\FINAL_1_Vysotskyi.dll
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\obj\Debug\net7.0\FINAL_1_Vysotskyi.pdb
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\obj\Debug\net7.0\FINAL_1_Vysotskyi.genruntimeconfig.cache
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\obj\Debug\net7.0\ref\FINAL_1_Vysotskyi.dll
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Student\FINAL_1_Vysotskyi\FINAL_1_Vysotskyi\obj\Debug\net7.0\FINAL_1_Vysotskyi.csproj.CopyComplete

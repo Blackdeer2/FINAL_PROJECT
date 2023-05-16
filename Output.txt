@@ -1,0 +1,44 @@
+Info about the device 
+Mobile Phone
+Name: iPhone 13 
+Price: 31499,99
+Info about the device 
+Radio Phone
+Name: Panasonic KX-TGD310 
+Price: 1249,99 
+Has Answering Machine True
+Info about the device 
+Mobile Phone
+Name: Samsung Galaxy S22 
+Price: 32000,99
+Info about the device 
+Radio Phone
+Name: Siemens Gigaset A540 
+Price: 719,99 
+Has Answering Machine False
+Info about the device 
+Mobile Phone
+Name: Samsung Galaxy S21 
+Price: 29899,99
+Info about the device 
+Mobile Phone
+Name: iPhone 12 Pro Max 
+Price: 27399,99
+Info about the device 
+Radio Phone
+Name: Panasonic KX-TGF575S 
+Price: 299,99 
+Has Answering Machine True
+Info about the device 
+Radio Phone
+Name: VTech CS6719-2 
+Price: 99,99 
+Has Answering Machine False
+iPhone 13 31499.99
+Panasonic KX-TGD310 1249.99 true
+Samsung Galaxy S22 32000.99
+Siemens Gigaset A540 719.99 false
+Samsung Galaxy S21 29899.99
+iPhone 12 Pro Max 27399.99
+Panasonic KX-TGF575S 299.99 true
+VTech CS6719-2 99.99 false

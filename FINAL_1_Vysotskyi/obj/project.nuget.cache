@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "g6h3GJGOq+A0u9eDGUBEnQvPUZYyRkNVGJtZEABjLU4/m8ignEKEiF+hUA9bWLYlXxSX0Izqxm5DI5y8HeqYPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Student\\FINAL_1_Vysotskyi\\FINAL_1_Vysotskyi\\FINAL_1_Vysotskyi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vivo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
