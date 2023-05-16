@@ -45,9 +45,9 @@ namespace FINAL_1_Vysotskyi
       {
          return _price.CompareTo(other.Price);
       }
-      public string ToString(IPhone other)
+/*      public string ToString(IPhone other)
       {
          return $"{other.Name}, {other.Price}";
-      }
+      }*/
    }
 }

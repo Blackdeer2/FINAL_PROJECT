@@ -1,0 +1,44 @@
+Info about the device 
+Radio Phone
+Name: VTech CS6719-2 
+Price: 99,99 
+Has Answering Machine False 
+
+Info about the device 
+Radio Phone
+Name: Panasonic KX-TGF575S 
+Price: 299,99 
+Has Answering Machine True 
+
+Info about the device 
+Radio Phone
+Name: Siemens Gigaset A540 
+Price: 719,99 
+Has Answering Machine False 
+
+Info about the device 
+Radio Phone
+Name: Panasonic KX-TGD310 
+Price: 1249,99 
+Has Answering Machine True 
+
+Info about the device 
+Mobile Phone
+Name: iPhone 12 Pro Max 
+Price: 27399,99 
+
+Info about the device 
+Mobile Phone
+Name: Samsung Galaxy S21 
+Price: 29899,99 
+
+Info about the device 
+Mobile Phone
+Name: iPhone 13 
+Price: 31499,99 
+
+Info about the device 
+Mobile Phone
+Name: Samsung Galaxy S22 
+Price: 32000,99 
+

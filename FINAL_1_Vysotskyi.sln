@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FINAL_1_Vysotskyi", "FINAL_1_Vysotskyi\FINAL_1_Vysotskyi.csproj", "{D824BEAD-F2ED-49E9-9C04-AC30B0FE8BEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FINAL_1_Vysotskyi", "FINAL_1_Vysotskyi\FINAL_1_Vysotskyi.csproj", "{D824BEAD-F2ED-49E9-9C04-AC30B0FE8BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhone_Test", "TestProject1\MobilePhone_Test.csproj", "{C53A4CF9-EC96-4C65-B673-DBB622BC4A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioPhone_Test", "RadioPhone_Test\RadioPhone_Test.csproj", "{FEFECFCF-0EB5-4210-9CDD-36D728EE15ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D824BEAD-F2ED-49E9-9C04-AC30B0FE8BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D824BEAD-F2ED-49E9-9C04-AC30B0FE8BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D824BEAD-F2ED-49E9-9C04-AC30B0FE8BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53A4CF9-EC96-4C65-B673-DBB622BC4A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53A4CF9-EC96-4C65-B673-DBB622BC4A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53A4CF9-EC96-4C65-B673-DBB622BC4A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53A4CF9-EC96-4C65-B673-DBB622BC4A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFECFCF-0EB5-4210-9CDD-36D728EE15ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFECFCF-0EB5-4210-9CDD-36D728EE15ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFECFCF-0EB5-4210-9CDD-36D728EE15ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFECFCF-0EB5-4210-9CDD-36D728EE15ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

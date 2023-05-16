@@ -5,6 +5,7 @@ using System.Runtime.Serialization.Json;
 using System.Text.Json;
 using System.Xml;
 using System.IO;
+using System.Numerics;
 
 
 namespace FINAL_1_Vysotskyi
@@ -13,6 +14,8 @@ namespace FINAL_1_Vysotskyi
    {
       static void Main(string[] args)
       {
+ /*        string writtePath = @"C:\Student\FINAL_1_Vysotskyi\REZ.txt";
+         string text = "";*/
          List<IPhone> phoneList = new List<IPhone>()
                   {
                    new MobilePhone("iPhone 13", 31499.99),
@@ -24,9 +27,36 @@ namespace FINAL_1_Vysotskyi
                    new RadioPhone("Panasonic KX-TGF575S", 299.99, true),
                    new RadioPhone("VTech CS6719-2", 99.99, false)
                   };
+         foreach (IPhone phone in phoneList)
+         {
+            Console.WriteLine(phone.Info());
+         }
+         Console.WriteLine();
+
+         phoneList.Sort();
+         Console.WriteLine("Sorted ");
+         foreach (IPhone phone in phoneList)
+         {
+            phone.Print();
+         }
+
+         double sum = 0;
+         foreach (IPhone phone in phoneList)
+         {
+            sum += phone.Price;
+         }
+         Console.WriteLine($"\nTotal sum {sum}\n");
+
+         foreach (IPhone phone in phoneList)
+         {
+            if (phone is RadioPhone && ((RadioPhone)phone).HasAnsweringMachine)
+            {
+               Console.WriteLine($"{phone.Name} {((RadioPhone)phone).HasAnsweringMachine}\n");
+            }
+         }
+
 
          PhoneListWrapper phoneListWrapper = new PhoneListWrapper(phoneList);
-
          string jsonString;
          using (Stream stream = new FileStream("person4.json", FileMode.Create))
          {
@@ -37,52 +67,33 @@ namespace FINAL_1_Vysotskyi
             jsonString = reader.ReadToEnd();
          }
 
+
+
          using (Stream stream = new FileStream("person4.json", FileMode.Open))
          {
             DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(PhoneListWrapper));
             PhoneListWrapper phoneListWrapperDSer = (PhoneListWrapper)serializer.ReadObject(stream);
-            Console.WriteLine("Deserialization JSON");
-                /*            foreach (var phone in phoneListWrapperDSer.Phones)
-                            {
-                               Console.WriteLine(phone.ToString());
-                            }*/
-                Console.WriteLine();
+            Console.WriteLine("Deserialization JSON\n");
+            foreach (var phone in phoneListWrapperDSer.Phones)
+            {
+               Console.WriteLine(phone.Info());
             }
+/*            try
+            {
+               using (StreamWriter sw = new StreamWriter(writtePath, false, System.Text.Encoding.Default))
+               {
+                  foreach (var phone in phoneListWrapperDSer.Phones)
+                  {
+                     sw.WriteLine(phone.Info());
+                  }
+               }
+            }
+            catch (Exception ex)
+            {
+               Console.WriteLine(ex.Message);
+            }*/
+         }
 
-
-         /* foreach (IPhone phone in phones)
-          {
-             Console.WriteLine(phone.Info());
-          }
-          Console.WriteLine();
-
-          foreach (IPhone phone in phones)
-          {
-             phone.Info();
-          }
-          Console.WriteLine();
-
-          phones.Sort();
-          Console.WriteLine("Sorted ");
-          foreach (IPhone phone in phones)
-          {
-             phone.Print();
-          }
-
-          double sum = 0;
-          foreach (IPhone phone in phones)
-          {
-             sum += phone.Price;
-          }
-          Console.WriteLine($"Total sum {sum}\n");
-
-          foreach (IPhone phone in phones)
-          {
-             if (phone is RadioPhone && ((RadioPhone)phone).HasAnsweringMachine)
-             {
-                Console.WriteLine(phone.Info());
-             }
-          }*/
       }
    }
 }
