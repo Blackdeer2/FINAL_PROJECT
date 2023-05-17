@@ -20,13 +20,13 @@ namespace FINAL_1_Vysotskyi
          _name = name;
          _price = price;
       }
-      [DataMember]
+      //[DataMember]
       public string Name
       {
          get { return _name; }
          set { _name = value; }
       }
-      [DataMember]
+      //[DataMember]
       public double Price
       {
          get { return _price; }

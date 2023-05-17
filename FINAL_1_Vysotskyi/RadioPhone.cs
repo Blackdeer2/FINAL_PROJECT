@@ -16,19 +16,19 @@ namespace FINAL_1_Vysotskyi
       private double _price;
       [DataMember]
       private bool _hasAnsweringMachine;
-      [DataMember]
+      //[DataMember]
       public string Name
       {
          get { return _name; }
          set { _name = value; }
       }
-      [DataMember]
+      //[DataMember]
       public double Price
       {
          get { return _price; }
          set { _price = value; }
       }
-      [DataMember]
+      //[DataMember]
       public bool HasAnsweringMachine
       {
          get { return _hasAnsweringMachine; }

@@ -6,16 +6,23 @@ using System.Text.Json;
 using System.Xml;
 using System.IO;
 using System.Numerics;
+using log4net;
+using log4net.Config;
 
+
+[assembly: log4net.Config.XmlConfigurator(Watch = true)]
 
 namespace FINAL_1_Vysotskyi
 {
    internal class Program
    {
+      private static readonly log4net.ILog log =
+log4net.LogManager.GetLogger
+(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
       static void Main(string[] args)
       {
- /*        string writtePath = @"C:\Student\FINAL_1_Vysotskyi\REZ.txt";
-         string text = "";*/
+                 string writtePath = @"C:\Student\FINAL_1_Vysotskyi\REZ.txt";
+                 string text = "";
          List<IPhone> phoneList = new List<IPhone>()
                   {
                    new MobilePhone("iPhone 13", 31499.99),
@@ -25,7 +32,8 @@ namespace FINAL_1_Vysotskyi
                    new MobilePhone("Samsung Galaxy S21", 29899.99),
                    new MobilePhone("iPhone 12 Pro Max", 27399.99),
                    new RadioPhone("Panasonic KX-TGF575S", 299.99, true),
-                   new RadioPhone("VTech CS6719-2", 99.99, false)
+                   new RadioPhone("VTech CS6719-2", 99.99, false),
+/*                   new MobilePhone(Console.ReadLine(), Double.Parse( Console.ReadLine()))*/
                   };
          foreach (IPhone phone in phoneList)
          {
@@ -78,20 +86,21 @@ namespace FINAL_1_Vysotskyi
             {
                Console.WriteLine(phone.Info());
             }
-/*            try
+            try
             {
                using (StreamWriter sw = new StreamWriter(writtePath, false, System.Text.Encoding.Default))
                {
                   foreach (var phone in phoneListWrapperDSer.Phones)
                   {
                      sw.WriteLine(phone.Info());
+                     log.Debug("ooooo daaaa");
                   }
                }
             }
             catch (Exception ex)
             {
-               Console.WriteLine(ex.Message);
-            }*/
+               log.Error(ex.Message);
+            }
          }
 
       }
